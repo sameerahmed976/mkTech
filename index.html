@@ -25,11 +25,11 @@
           </div>
         </div>
         <ul class="nav__links">
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">Projects</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -48,7 +48,7 @@
         </section>
       </section>
       <!-- !!About section -->
-      <section class="about">
+      <section class="about" id="about">
         <h2 class="about__heading">About Us</h2>
         <div class="about__underline"></div>
 
@@ -92,7 +92,7 @@
         </section>
       </section>
       <!-- !!Services section -->
-      <section class="services">
+      <section class="services" id="services">
         <h2 class="services__heading">Services</h2>
         <div class="services__underline"></div>
         <section class="services__container">
@@ -183,7 +183,7 @@
         </section>
       </section>
       <!-- !!Projects section -->
-      <section class="projects">
+      <section class="projects" id="projects">
         <h2 class="projects__heading">Projects</h2>
         <div class="projects__underline"></div>
         <section class="projects__container">
@@ -220,7 +220,7 @@
         </section>
       </section>
       <!-- !!form section -->
-      <section class="contact">
+      <section class="contact" id="contact">
         <h1 class="form__heading">Contact Us</h1>
         <div class="form__underline"></div>
         <section class="form__container">
@@ -231,7 +231,6 @@
                 <label for="email">
                   <input
                     type="email"
-                    autofocus
                     name="email"
                     id="email"
                     class="form__input"
@@ -266,6 +265,8 @@
           </form>
         </section>
       </section>
+
+      <button class="btn btn--up"><i class="fa-solid fa-up-long"></i></button>
     </main>
     <footer class="footer">
       <p class="footer__heading">Copyright &copy; mktech solution 2022.</p>
